@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Mate SC', serif;
+}
+body{
+    background-image: url(/photo-1471940393269-df205607fb2a.jpg);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30%;
+    text-align: center;
+}
+.nums{
+    margin: 20px;
+}
+.nums span{
+    font-weight: bold;
+    font-size: 60px;
+    margin-right: 25px;
+}
+h2{
+    font-size: 40px;
+}
+.text :nth-child(1){
+    margin-right: 20px;
+}  
+
+.text :nth-child(2){
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}.text :nth-child(3){
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+.text :nth-child(4){
+    margin-left: 20px;
+    
+}
